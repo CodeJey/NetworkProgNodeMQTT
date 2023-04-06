@@ -1,15 +1,17 @@
 const express = require("express");
 const app = express();
+//приложението е достъпно на адрес localhost:3000, но ако се отвори порт би могло да се използва и отвън
+//за да се видят съответните страници е необходимо да се направи заявка контролерите да направят render на view-тата
 const port = 3000;
 
-// Serve Static Files
+// статични файлове
 app.use(express.static("public"));
 app.use("/assets", express.static("public"));
 
-// template view engine
+// шаблони/views
 app.set("view engine", "ejs");
 
-// Set the json request body
+// настройка на json
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 

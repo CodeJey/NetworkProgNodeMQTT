@@ -17,7 +17,7 @@ window.addEventListener("load", (event) => {
 function connectToBroker() {
   const clientId = "client" + Math.random().toString(36).substring(7);
 
-  const host = "ws://192.168.100.22:9001/mqtt";
+  const host = "ws://127.0.0.1:9001/mqtt";
 
   const options = {
     keepalive: 60,

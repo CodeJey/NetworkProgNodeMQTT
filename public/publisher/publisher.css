@@ -5,12 +5,14 @@
 }
 
 .line {
-  border: 3px solid red;
+  border: 3px solid rgba(64, 172, 37, 0.851);
   width: 200px;
 }
-
+body{
+  background-color: rgb(65, 65, 65);
+}
 .wrapper {
-  background-color: rgb(247, 244, 244);
+  background-color: rgb(102, 102, 102);
   list-style-type: none;
   padding: 0;
   border-radius: 5px;
@@ -28,6 +30,7 @@
 }
 .form-row > input {
   flex: 2;
+  background-color: rgb(160, 140, 140);
 }
 
 .form-row > input,
@@ -39,8 +42,8 @@
   font-size: 1.2em;
 }
 .form-row > button {
-  background-color: #3f51b5;
-  color: white;
+  background-color: #41b53f8a;
+  color: rgb(232, 231, 231);
   border: 0;
   flex: 3;
   font-weight: 600;

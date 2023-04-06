@@ -5,12 +5,14 @@
 }
 
 .line {
-  border: 3px solid red;
+  border: 3px solid rgba(64, 172, 37, 0.851);
   width: 200px;
 }
-
+body{
+  background-color: rgb(65, 65, 65);;
+}
 .wrapper {
-  background-color: rgb(247, 244, 244);
+  background-color: rgb(102, 102, 102);
   list-style-type: none;
   padding: 0;
   border-radius: 5px;
@@ -30,6 +32,9 @@
 .form-row > textarea {
   flex: 2;
 }
+#topic{
+  background-color: rgb(183, 220, 232);
+}
 .form-row > input,
 .form-row > button,
 .form-row > textarea {
@@ -42,7 +47,8 @@
 }
 .form-row > textarea {
   font-size: 1.5em;
-  background-color: rgb(242, 248, 248);
+  color: rgb(255, 146, 73);
+  background-color: rgb(78, 99, 106);
   text-align: center;
   font-weight: bold;
 }
@@ -62,14 +68,14 @@
 }
 
 #subscribe {
-  background-color: green;
+  background-color: #41b53f8a;
 }
 #unsubscribe {
-  background-color: rgb(176, 6, 6);
+  background-color: rgba(171, 42, 42, 0.863);
 }
 
 #status {
-  background-color: lightcyan;
+  background-color: rgb(141, 188, 204);
   text-align: center;
   font-weight: bold;
 }

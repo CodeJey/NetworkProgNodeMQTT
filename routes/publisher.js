@@ -3,7 +3,7 @@ const router = express.Router();
 
 var publisherController = require("../controllers/publisher");
 
-// Publisher Home Route.
+// Указател към publisher.
 router.get("/", publisherController.getPublisherPage);
 
 router.post("/", publisherController.publishMQTTMessage);
